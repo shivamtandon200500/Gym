@@ -1,0 +1,78 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body,html{
+    font-family: 'Ubuntu', sans-serif;
+}
+#section{
+    background:url("img/training-828732_1920.jpg") no-repeat center center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+.navbar{
+    background-color: #00000057;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar ul{
+    overflow: auto;
+    float: right;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin: 15px 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: crimson;
+}
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.logo{
+    height: 50px;
+    margin-left: 12px;
+}
+.holder{
+    color:white ;
+    margin: -37px 95px;
+    font-size: larger;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body,html{
+    font-family: 'Ubuntu', sans-serif;
+}
+#banner{
+    background:url("img/pexels-photo-2261485.jpeg") no-repeat center center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+.navbar{
+    background-color: #00000057;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar ul{
+    overflow: auto;
+    float: right;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin: 15px 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: crimson;
+}
+.banner-content{
+    color:white;
+    width: 60%;
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+.banner-content h1 {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.banner-content p {
+    padding: 3px 6px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 1.45em;
+}
+.btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    width: 115px;
+    background-color: crimson;
+    padding: 12px 15px;
+    border: 0px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: rgb(5, 0, 0);
+    background-color: rgb(110, 216, 40);
+    border: 2px solid black;
+}
+.logo{
+    height: 50px;
+    margin-left: 12px;
+}
+.holder{
+    color:white ;
+    margin: -37px 95px;
+    font-size: larger;
+}
